@@ -1,0 +1,46 @@
+h1 {margin-left: 38%;
+     color: #c9303e;
+     position: -webkit-sticky;
+     position: sticky;}
+
+#liste li {display: inline-block;
+          padding: 10px;}
+
+#liste {float: left;
+      margin-left: 70%;}
+
+#bleibt{background-color: #9161f2;}
+
+#liste li:hover{background-color: #9161f2;}
+
+img{
+     width: 500px;
+     height: 500px;
+     transition: 0,3s;
+     display: block;
+}
+#pFirst{
+     margin-left: 40%;
+     margin-bottom: 60%;
+}
+h2{
+     margin-left: 68%;
+     font-size: xx-large;
+     color: #c9303e; 
+}
+
+#icons{
+     margin-left: 58%;
+     
+}
+#together{
+     width: 100%;
+     justify-content: space-between;
+     display: flex;
+    position: relative;
+    
+}
+#together p{
+width: 50%;
+margin-right: 15%;
+}

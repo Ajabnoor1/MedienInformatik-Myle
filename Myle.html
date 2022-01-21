@@ -2,9 +2,62 @@
 <html>
     <head>
         <meta charset = "UTF-8"/>
+        <meta name = "description" content = "GDI Webseite für 20 Punkte"/>
+        <meta name = "viewpoint" content = "width = device-width, intial -scale = 1"/> 
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Luxurious+Roman&display=swap" rel="stylesheet">
+
+        <link rel = "stylesheet" type = "text/css" href = "Myle.Design.css"> 
         <title>MYle Save my Time ;) </title>
     </head>
-    <body>
-        <h1>What the fuck is that</h1>
+    
+    <body style="font-family: 'Luxurious Roman', cursive;"   >
+        <header>
+            <nav>
+                <ul id = "liste">
+                    <li id = "bleibt">Startseit</li>
+                    <li>Audioscrypt</li>
+                    <li>Kontakt</li>  
+                </ul>
+            </nav>
+                <h1>Technology Revolution </h1>
+                <hr>       
+        </header>     
+            <div id = "together">
+                <img src="frontpage.jpg" alt="Technolgy is Future" id="images"/>
+                <p>Wir alle drei Mitglieder haben als erstes mehreres mal die Audio Aufgenommen, um die Beste Audio für die Arbeit rausgenommen, und danach dafür die passende Musik rausgesucht. Es war nicht so einfach um die Geräusche zu vermeiden hat meistens die Zeit gekostet. 
+                    Joshua Christ hat das Skript geschrieben und während des Audio Aufnahme mehreres mal den Skript angepasst, damit es kurzer und effektiver wird. Max Ilinseer, hat den Audioschnitt und dazu passende Musik zusammengestellt. Khan, Ajabnoor hat den Dokumentiert.  
+                    Beim Anfang der Musik haben wir immer den Ton eingeblendet damit es langsam einsteigt und beim Ton Ende immer ausgeblendet damit es langsam aussteigt, sonst klingt es nicht effektiver. Beim Hintergrund Musik haben wir den Dezi-Bell niedriger gemacht damit es als Hintergrund spielt, und nicht lauter als Versprecher wird. 
+                    Wir haben die Aufgabe nicht verteilt, sondern als Team zusammen auf Discord getroffen und wir alle drei haben es zusammen angefangen und die Beste Audioaufnahme, Skript, Musik ausgesucht.
+                    Wir haten nicht so großartige Schwierigkeiten beim Audacity, es war einfach zu bedienen. 
+                    </p>
+            </div>  
+                <h2> Our costumers </h2>
+                
+          
+                <img src="" alt="what the Fuck" id="icons"/>
+              
+                <script>
+
+
+                let image = document.getElementById('images');
+                let us = ['frontpage.jpg','secondpage.jpg', 'thirdpage.jpg']
+                    setInterval(()=>{
+                        let random = Math.floor(Math.random() * 3);
+                        // console.log(random);
+                        // console.log(Image.src);
+                        image.src = us[random];
+                    }, 5000);   //1000 => 1s
+              
+     
+                    let icon = document.getElementById('icons');
+                    let u = ['adidas.png', 'Ansons.png', 'ca.png', 'nike.png', 'hm.png', 'zara.png', 'adidasblack.png', 'ansonsMen.png']
+                        setInterval(()=>{
+                            let random = Math.floor(Math.random() * 8);
+                            icon.src = u[random];
+                        }, 1000);   //1000 => 1s
+                    </script>
+       
     </body>
 </html>
